@@ -1,0 +1,75 @@
+                                                    Data Structures and Algorithms
+1.Complexity:
+  a.	O (1)	Function call
+  b.	O(logN)	1 Loop for N with dividend or multiplication growth 
+  c.	O (log (logN))	2 Loops with N with dividend or multiplication growth
+  d.	O (N)	1 Loop for N with linear growth
+  e.	O (N logN)	(4) + (3)
+  f.	O (N^2)	2 Loop for N with linear growth 
+  g.	O (2^N)	Exponential growth by 2 
+  h.	O (N!)	Factorial growth by 1*2*……...*(N-2) *(N-1) *N
+  i.	O (N^3)	3 loops
+  
+  Sources:
+  http://stackoverflow.com/questions/4317414/polynomial-time-and-exponential-time
+  http://www.geeksforgeeks.org/analysis-of-algorithms-set-4-analysis-of-loops/
+
+2. Arrays: (1,2,3,4,19,20,21)
+  a. Sorting (merge, insertion, quick)
+  b. Searching (Linear, Binary Search)
+  c. Swapping
+  d. Rotating
+  e. Max numbers using arbitary variables
+  f. Finding distinct, duplicates using '-' flag
+
+3. Graphs:
+  a. Types of Graphs
+  b. Complexity Analysis
+  c. DFS
+  d. BFS
+  e. Topological Sort
+  f. Cycle Detection Algorithm
+  g. Stongly Connected Components
+    1. Kasaraju's Algorithm
+    2. Tarjan's Algorithm
+  h. Minimum Spanning Tree
+    1. Borvuka's Algorithm
+    2. Prim's Algorithm
+    3. Kruskal's Algorithm
+  i. Path Finding
+    1. Shortest Path
+      1.1 Floyd-Warshall algorithm 
+      1.2 Djikstra's algorithm 
+      1.3 Travelling Salesman Problem
+  j. Bipartie Validation
+  k. Maze Puzzles
+  l. Max Flow Problem (Single-Sink Flow)
+    1. Dinic's Algorithm
+
+4. Dynamic Programming:
+   Problems: 
+      1. Knapsack Problem
+      2. Making Coins Change
+      3. Maximum value Continguous Sequence
+      4. Levenshtein Distance
+      5. Traverse 2D Array
+      6. Triangle: Maximum weigh path
+      7. Pretty printing problem
+
+  Notes:
+  I) Introduction:
+    Sources: https://www.quora.com/How-should-I-explain-dynamic-programming-to-a-4-year-old#!n=12
+            https://tp-iiita.quora.com/Dynamic-Programming-Part-1
+            https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
+    
+  II) Memoization, Tabulation
+    Source: http://www.geeksforgeeks.org/dynamic-programming-set-1/
+    
+  III). Principle of Optimality (Optimal Substructure Solution)
+    a. Base cases
+    b. Inductive Hypothesis
+    c. Inductive Steps
+    Source: https://www.youtube.com/watch?v=_zE5z-KZGRw&index=2&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
+ 
+  IV). Without Optimal Solution
+  Source: https://www.youtube.com/watch?v=MPTBMVLoGmw&index=3&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
